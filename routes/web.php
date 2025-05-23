@@ -45,3 +45,11 @@ Route::get('/wildcard' , function (){
 Route::get('/wildcard/{id}' , function ($id){
     return view('wildcard.show_student' , ["id" => $id]);
 });
+
+Route::get('/card' , function (){
+    return view('card.index');
+});
+
+Route::get('card/shirt' , function (){
+    return view('card.shirt.shirt_view');
+});

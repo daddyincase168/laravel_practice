@@ -12,6 +12,7 @@
 
         <div class="blog">
             <a href="/wildcard"><button class="btn">Wilcard</button></a>
+            <a href="/card"><button class="btn">Card</button></a>
         </div>
     </div>
 </body>

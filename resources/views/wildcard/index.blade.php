@@ -7,7 +7,6 @@
 </head>
 <body>
     <h2>Students list</h2>
-
     <ul>
         @foreach ($students as $student)
             <li>
