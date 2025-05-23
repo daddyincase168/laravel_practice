@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: rebeccapurple;
+    text-align: center;
+}
+
+.container{
+}
+
+.container .blog{
+    /* background-color: bisque; */
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+}
+
+.container .blog .btn{
+    background-color: blueviolet;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
